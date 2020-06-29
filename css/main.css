@@ -17,43 +17,17 @@ div#title {
     display: block;
 }
 
-div.personal-statement {
-    float: left;
-    margin: 0px 10px;
-    font-weight: 300;
-    font-size: 15px;
-}
-
-table#personal-statement-table {
-    margin-top: 15px;
-}
-
-img#profile-img {
-    max-height: 200px;
-    height: auto;
-    border-radius: 15px;
-      display: block;
-  margin-left: auto;
-  margin-right: 20px;
-  margin-top: 16px;
-  padding: 5px;
-}
-
 div#links {
     width: 100%
 }
 div#links a {
     float: left;
     text-align: center;
-    width: 16.6%; /* 600 / num_links */
+    width: 20%; /* 600 / num_links */
 }
 
 h1 {
     margin: 10px;
-}
-
-ul {
-/*     list-style-type: none; */
 }
 
 span.helper {
@@ -69,6 +43,7 @@ td.image-td {
 td.description-td {
     width: 70%
 }
+
 img.project-img {
     max-width: 150px;
     max-height: 100px;
@@ -85,19 +60,16 @@ div.container {
 }
 
 a {
-    color: #47D;
+    color: #4877b5;
 }
 h2 {
-    color: #E87B0C;
+    color: #dfbf00;
     margin-left: 5%;
-}
-td#personal-statement-td {
-    width: 70%;
 }
 
 hr {
     height: 2px;
     border: none;
-    background: #ccc;
+    background:#000;
     border-radius: 8px;
 }
