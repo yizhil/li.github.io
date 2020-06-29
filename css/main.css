@@ -68,8 +68,8 @@ h2 {
 }
 
 hr {
-    height: 2px;
-    border: solid;
+    height: 1px;
+    border: None;
     background:#000;
     border-radius: 3px;
 }
