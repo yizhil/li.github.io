@@ -69,7 +69,7 @@ h2 {
 
 hr {
     height: 2px;
-    border: none;
+    border: solid;
     background:#000;
-    border-radius: 8px;
+    border-radius: 3px;
 }
