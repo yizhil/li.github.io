@@ -3,17 +3,17 @@ var data = {
         {
             img: 'images/nn_topo.png',
             title: 'Bankruptcy Predication via Neural Network ',
-            text: 'a'
+            text: '[<a href="https://github.com/yizhil/numpyBasedNeuralNetwork">code</a>][<a href="https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data">data</a>][<a href="https://github.com/yizhil/numpyBasedNeuralNetwork/tree/master/results">pics</a>]'
         },
         {
             img: 'images/option.png',
-            title: 'Scalable PDE Solver for Opions',
-            text: 'b'
+            title: 'Scalable PDE Solver for Options Pricing',
+            text: '[<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing">pics</a>]'
         },
         {
             img: 'images/trump.png',
             title: 'Trump Tweets based Trading Strategy',
-            text: 'c'
+            text: '[<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>][<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]'
         },
         {
             img: 'images/6882.png',
