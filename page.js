@@ -8,7 +8,7 @@ var data = {
         {
             img: 'images/option.png',
             title: 'Scalable PDE Solver for Options Pricing',
-            text: '[<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing">pics</a>]'
+            text: '[<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]'
         },
         {
             img: 'images/trump.png',
