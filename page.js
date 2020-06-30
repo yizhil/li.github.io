@@ -1,18 +1,18 @@
 var data = {
     "projects": [
         {
-            img: 'images/6882.png',
-            title: 'a',
+            img: 'images/nn_topo.png',
+            title: 'Bankruptcy Predication via Neural Network ',
             text: 'a'
         },
         {
-            img: 'images/6882.png',
-            title: 'b',
+            img: 'images/option.png',
+            title: 'Scalable PDE Solver for Opions',
             text: 'b'
         },
         {
-            img: 'images/6882.png',
-            title: 'c',
+            img: 'images/trump.png',
+            title: 'Trump Tweets based Trading Strategy',
             text: 'c'
         },
         {
