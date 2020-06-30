@@ -10,7 +10,7 @@ var data = {
             img: 'images/option.png',
 			authors: 'QFGB 8960 Advanced C++',
             title: 'Scalable PDE Solver for Options Pricing',
-            text: 'Design, build and implement a PDE solver using finite difference method. The solver aims to compute value and Greeks (&Delta,&Gamma,&Theta) for Call/Put, Eur/Ame/Bermuda, Vanilla/Barrier options, a total of 24 type combinations. The solver takes great advantage of polymorphimsm and inheritance, thus can be easily expanded to price other option with its payoff provided. [<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]'
+            text: 'Design, build and implement a PDE solver using finite difference method. The solver aims to compute value and Greeks (/&Delta,&Gamma,&Theta) for Call/Put, Eur/Ame/Bermuda, Vanilla/Barrier options, a total of 24 type combinations. The solver takes great advantage of polymorphimsm and inheritance, thus can be easily expanded to price other option with its payoff provided. [<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]'
         },
         {
             img: 'images/trump.png',
