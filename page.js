@@ -16,7 +16,7 @@ var data = {
             img: 'images/trump.png',
 			authors: 'QFGB 8954 Research Seminar',
             title: 'Trump Tweets based Trading Strategy',
-            text: 'The phenomenan that President Trump announced increased tariff on China and S&P500 index dropped dramatically in the next two days, inspire us to explore the influence Trump has on the market and develop a model to predict the market movement based on the president’s words. We collect 8 years' tweets starting 2010, visualize with a word cloud, and connect them with S&P500 index to create the dataset. The model trained with Naive Bayes algorithm ends up with a predication accuracy of 54.6% in 2018. Based on this, we devise two trading strategies that outperform the index.[<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>][<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]'
+            text: 'The phenomenan that President Trump announced increased tariff on China and S&P500 index dropped dramatically in the next two days, inspire us to explore the influence Trump has on the market and develop a model to predict the market movement based on the president\'s words. We collect 8 years tweets starting 2010, visualize with a word cloud, and connect them with S&P500 index to create the dataset. The model trained with Naive Bayes algorithm ends up with a predication accuracy of 54.6% in 2018. Based on this, we devise two trading strategies that outperform the index.[<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>][<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]'
         },
         {
             img: 'images/6882.png',
