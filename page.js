@@ -2,18 +2,21 @@ var data = {
     "projects": [
         {
             img: 'images/nn_topo.png',
-            title: 'Bankruptcy Predication via Neural Network ',
-            text: '[<a href="https://github.com/yizhil/numpyBasedNeuralNetwork">code</a>][<a href="https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data">data</a>][<a href="https://github.com/yizhil/numpyBasedNeuralNetwork/tree/master/results">pics</a>]'
+			authors: 'CISC 5800 Machine Learning'
+            title: 'Bankruptcy Predication via Neural Network',
+            text: 'We implement a neural network from scratch. The classifier is dependent soly on NumPy and has epoch, learning rate, and neuron structure as hyperparameters. We extend its functionality by incorporating 2 learning techniques, momentum gradient descent and neural pruning, and 2 activation functions, ReLu and tanh. We work with Polish Companies Bankruptcy dataset, test and compare effects of hyper-parameters and learning method on prediction accuracy and run-time[<a href="https://github.com/yizhil/numpyBasedNeuralNetwork">code</a>][<a href="https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data">data</a>][<a href="https://github.com/yizhil/numpyBasedNeuralNetwork/tree/master/results">pics</a>]'
         },
         {
             img: 'images/option.png',
+			authors: 'QFGB 8960 Advanced C++'
             title: 'Scalable PDE Solver for Options Pricing',
-            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL [<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]'
+            text: 'Design, build and implement a PDE solver using finite difference method. The solver aims to compute value and Greeks for Call/Put, Eur/Ame/Bermuda, Vanilla/Barrier options, a total of 24 type combinations. The solver takes great advantage of polymorphimsm and inheriance, thus can be easily expanded to price other option with its payoff provided. [<a href="https://github.com/yizhil/OptionPricing">code</a>][<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]'
         },
         {
             img: 'images/trump.png',
+			authors: 'QFGB 8954 Research Seminar'
             title: 'Trump Tweets based Trading Strategy',
-            text: '[<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>][<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]'
+            text: 'The purpose of this project is to explore the influence Trump has on the market and develop a model to predict the movement of the market based on the president’s words.[<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>][<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]'
         },
         {
             img: 'images/6882.png',
