@@ -30,24 +30,32 @@ Site still under construction
 </p><p>
 
 </p><hr width="100%">
+<br>
+<div class="container" id="projects"><big><strong class="asterisk">Class Projects</strong></big></div>
+<br>
+<strong class="asterisk">Option Implied Volatilities Prediction</strong>
 
 <p></p><p>
 
-</p><div class="container" id="projects"><big><strong class="asterisk">Class Projects</strong></big></div>
-<br><br>
-<strong class="asterisk">Use DNN to Predict Implied Volatilities</strong>
-<dl><dt><div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/pca_3d_1.gif" target="_blank"><img class="markdeep" src="./images/pca_3d_1.gif" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Visualize Option Data in PCA Space</small></span></center></div></dt><dd><p>  - <em class="asterisk">CISC 6352 Adv Computational Finance</em>
+</p><dl><dt><div class="image" style="width:28%;float:right;margin:4px 0px 0px 25px;"><a href="./images/tsne_3d_1.gif" target="_blank"><img class="markdeep" src="./images/tsne_3d_1.gif" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Option Data Embedded via T-SNE</small></span></center></div></dt><dd><p>  - <em class="asterisk">CISC 6352 Adv Computational Finance</em>
 
 </p><p>
 
-    TBD 
+    The purpose of the project is to find the model among DNN, KNN, Gradient Boosting, and Extra Tree that works best on predicting implied volatilities. 
+	I work with ~12k option data consisting of roughly 50% call and 50% put, visualize their PCA, T-SNE, and UMAP embeddings.
+	Then tune the hyper-parameters for each model by GridSearch and measure the MSE by moneyness. </p><div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/Embedded_option_data.png" target="_blank"><img class="markdeep" src="./images/Embedded_option_data.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small><strong class="asterisk">Call/Put in Embedding Space</strong></small></span></center></div>
+	Results show that GB is the best implied volatility estimator in feature space for both ITM and OTM options, with a MSE of 0.0055, followed by ET, DNN and KNN. 	
+	I repeat the training using ITM/OTM only datasets. All models improve the OTM IV predictions but perform  <div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/residual_GB.png" target="_blank"><img class="markdeep" src="./images/residual_GB.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small><strong class="asterisk">GB Residual Scatter &amp; Distribution</strong></small></span></center></div>poorerly with ITM options.
+	Interestingly, in the embedding dimension, options can be clustered by type at ease while models generally
+	have poorer predictability because of the loss of some feature information.
 
-</p></dd></dl><br>
+<p></p></dd></dl>	
+<br>
 
 <p></p><p>
 
 <strong class="asterisk">Bankruptcy Predication via Neural Network</strong>
-</p><dl><dt><div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/nn_topo.jpg" target="_blank"><img class="markdeep" src="./images/nn_topo.jpg" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Evaluate Performance of Learning Settings</small></span></center></div></dt><dd><p>  - <em class="asterisk">CISC 5800 Machine Learning</em>
+</p><dl><dt><div class="image" style="width:28%;float:right;margin:4px 0px 0px 25px;"><a href="./images/nn_topo.jpg" target="_blank"><img class="markdeep" src="./images/nn_topo.jpg" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Evaluate Effect of Learning Settings</small></span></center></div></dt><dd><p>  - <em class="asterisk">CISC 5800 Machine Learning</em>
 
 </p><p>
 
@@ -55,28 +63,28 @@ Site still under construction
 	and neuron structure as hyperparameters. We extend its functionality by incorporating 2 learning techniques, momentum gradient descent and neural pruning, 
 	and 2 activation functions, ReLu and tanh. We work with Polish Companies Bankruptcy dataset, test and compare the effects of hyper-parameters and learning 
 	method on prediction accuracy and run-time. One major observation suggests that more complicated neuron structure does not always lead to higher accuracy, 
-	but does take significant more time to train. [<a href="https://github.com/yizhil/numpyBasedNeuralNetwork">code</a>] [<a href="https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data">data</a>] [<a href="https://github.com/yizhil/numpyBasedNeuralNetwork/tree/master/results">pics</a>]
+	but does take significantly more time to train. [<a href="https://github.com/yizhil/numpyBasedNeuralNetwork">code</a>] [<a href="https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data">data</a>] [<a href="https://github.com/yizhil/numpyBasedNeuralNetwork/tree/master/results">pics</a>]
 
 </p></dd></dl><br>
 
 <p></p><p>
 
 <strong class="asterisk">Scalable PDE Solver for Options Pricing</strong>
-</p><dl><dt><div class="image" style="width:25%;float:right;margin:4px 0px 0px 25px;"><a href="./images/option.png" target="_blank"><img class="markdeep" src="./images/option.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Price a Vanilla Option</small></span></center></div></dt><dd><p>  - <em class="asterisk">QFGB 8960 Advanced C++</em>
+</p><dl><dt><div class="image" style="width:28%;float:right;margin:4px 0px 0px 25px;"><a href="./images/option.png" target="_blank"><img class="markdeep" src="./images/option.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Price a Vanilla Option</small></span></center></div></dt><dd><p>  - <em class="asterisk">QFGB 8960 Advanced C++</em>
 
 </p><p>
 
     Design, build and implement a PDE solver using 3 finite difference methods (Explicit, Implicit, and Crank-Nicolson). 
 	The solver aims to compute value and Greeks for Call/Put, Eur/Ame/Bermuda, Vanilla/Barrier options, a total of 24 type combinations 
 	and compare 3 methods. The solver takes great advantage of polymorphimsm and inheritance, and thus can be easily expanded to 
-	numerically solve other PDEs or price other option with its payoff provided. [<a href="https://github.com/yizhil/OptionPricing">code</a>] [<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]
+	numerically solve other PDEs or price other option when its payoff provided. [<a href="https://github.com/yizhil/OptionPricing">code</a>] [<a href="https://github.com/yizhil/OptionPricing/tree/master/results">pics</a>]
 
 </p></dd></dl><br>
 
 <p></p><p>
 
 <strong class="asterisk">Trump Tweets based Trading Strategy</strong>
-</p><dl><dt><div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/trump.png" target="_blank"><img class="markdeep" src="./images/trump.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Word Cloud Generated by Tweets</small></span></center></div></dt><dd><p>  - <em class="asterisk">QFGB 8954 Research Seminar</em>
+</p><dl><dt><div class="image" style="width:28%;float:right;margin:4px 0px 0px 25px;"><a href="./images/trump.png" target="_blank"><img class="markdeep" src="./images/trump.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Word Cloud Generated by Tweets</small></span></center></div></dt><dd><p>  - <em class="asterisk">QFGB 8954 Research Seminar</em>
 
 </p><p>
 
