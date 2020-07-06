@@ -47,14 +47,14 @@ Site still under construction
 	Results show that GB is the best implied volatility estimator in feature space for both ITM and OTM options, with a MSE of 0.0055, followed by ET, DNN and KNN. 	
 	I repeat the training using ITM/OTM only datasets. All models improve the OTM IV predictions but perform  <div class="image" style="width:30%;float:right;margin:4px 0px 0px 25px;"><a href="./images/residual_GB.png" target="_blank"><img class="markdeep" src="./images/residual_GB.png" style="width:100%" border="1"></a><center><span class="imagecaption"><small><strong class="asterisk">GB Residual Scatter &amp; Distribution</strong></small></span></center></div>poorerly with ITM options.
 	Interestingly, in the embedding dimension, options can be clustered by type at ease while models generally
-	have poorer predictability because of the loss of some feature information.
+	have poorer predictability because of the loss of some feature information. [<a href="https://github.com/yizhil/Option_IV_Predication/blob/master/Examine%20IV%20for%20ITM%26OTM%20options.ipynb">code</a>] [<a href="https://github.com/yizhil/Option_IV_Predication/tree/master/results">pics</a>]
 
 <p></p></dd></dl>	
 <br>
 
 <p></p><p>
 
-<strong class="asterisk">Bankruptcy Predication via Neural Network</strong>
+<strong class="asterisk">Bankruptcy Prediction via Neural Network</strong>
 </p><dl><dt><div class="image" style="width:28%;float:right;margin:4px 0px 0px 25px;"><a href="./images/nn_topo.jpg" target="_blank"><img class="markdeep" src="./images/nn_topo.jpg" style="width:100%" border="1"></a><center><span class="imagecaption"><small>Evaluate Effect of Learning Settings</small></span></center></div></dt><dd><p>  - <em class="asterisk">CISC 5800 Machine Learning</em>
 
 </p><p>
@@ -91,7 +91,7 @@ Site still under construction
     The phenomenan that President Trump announced increased tariff on China and S&amp;P500 index dropped dramatically in the next two days, 
 	inspire us to explore the influence Trump has on the market and develop a model to predict the market movement based on the president&apos;s words. 
 	We collect 8 years tweets starting 2010, visualize with a word cloud, and connect them with S&amp;P500 index to create the dataset. The model 
-	trained with Naive Bayes algorithm ends up with a predication accuracy of 54.6% in 2018. Based on this, we devise two trading strategies 
+	trained with Naive Bayes algorithm ends up with a prediction accuracy of 54.6% in 2018. Based on this, we devise two trading strategies 
 	that outperform the index. [<a href="https://github.com/yizhil/TrumpTweetTradingStrategy">code</a>] [<a href="https://github.com/yizhil/TrumpTweetTradingStrategy/tree/master/results">pics</a>]
 
 </p></dd></dl><p></p></span><div id="mdContextMenu" style="visibility:hidden"></div><div class="markdeepFooter"><i>formatted by <a href="https://casual-effects.com/markdeep" style="color:#999">Markdeep&#xA0;1.10&#xA0;&#xA0;</a></i><div style="display:inline-block;font-size:13px;font-family:&apos;Times New Roman&apos;,serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">&#x2712;</div></div></body></html>
